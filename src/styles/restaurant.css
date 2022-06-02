@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+}
+.innerCont>img{
+    height: 201px;
+    margin-top: 9%;
+    margin-bottom: 6.7%;
+    width: 200px;
+    
+}
+.subCont{
+    display: flex;
+    width: 550px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+button{
+    
+    outline:none ;
+    border: none;
+    color: rgb(6, 100, 6);
+    background: #daffd6;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    margin-left:54% ;
+    margin-top: -7px;
+
+}
+*{
+    font-size: 14px;
+    /* margin-left: 2%; */
+}
+h3{
+    font-size: 16px;
+    margin-left: 2%;
+}
+p{
+    margin-left: 3%;
+}
